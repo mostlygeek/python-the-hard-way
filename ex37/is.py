@@ -73,3 +73,41 @@ tests = [
 for t in tests: 
     testIt(t, {'gimme': gimme})
 
+#
+# OUTPUT
+# ---------------
+#
+# Code [ 'string' is 'string'           ] : True
+# Code [ ("a" * 10) is ("a" * 10)       ] : True
+# Code [  ("a" * 100) is ("a" * 100)    ] : False
+# 
+# `echo` function:
+# ------------------
+# def echo(a): return a
+# 
+# Code [ a == b                         ] : True
+# Code [ a is b                         ] : False
+# Code [ c is a                         ] : True
+# Code [ a == echo(a)                   ] : True
+# Code [ a is echo(a)                   ] : True
+# 
+# `append` function:
+# ------------------
+# def append(a):
+#     a.append(6)
+#     return a
+# 
+# Code [ a == append(a)                 ] : True
+# Code [ a is append(a)                 ] : True
+# Code [ c == a                         ] : True
+# 
+# `gimme()` function:
+# ------------------
+# def gimme(val): 
+#     return val
+# 
+# Code [ 5 == gimme(5)                  ] : True
+# Code [ 5 is gimme(5)                  ] : True
+# Code [ gimme(5) == gimme(5)           ] : True
+# Code [ gimme(5) is gimme(5)           ] : True
+# 

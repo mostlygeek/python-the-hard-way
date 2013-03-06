@@ -12,9 +12,10 @@ Here is the list from the exercise:
     * as       - gives a module a different alias
                  see: as.py
     * elif     - means "else if"
-    * global   -
+    * global   - declares a variable is bound to global scope
     * or       - boolean OR
-    * with     -
+    * with     - executes code a new controlled context
+                 see: with.py
     * assert   - create inline test, throws `AssertionError` if fails
                  see: assert.py
     * else     - branching, a catch all
@@ -34,7 +35,7 @@ Here is the list from the exercise:
     * raise    - triggers a new exception
                  see: raise.py
     * continue - jumps to the top of the loop
-    * finally  - finishes a try/except block
+    * finally  - tear town step/block of a try/except/finally block
     * is       - tests "identity" not "equality"
                  see: is.py
     * return   - exits a function w/ a value

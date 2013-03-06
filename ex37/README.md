@@ -21,19 +21,22 @@ Here is the list from the exercise:
     * if       - logic branch
     * pass     - do nothing, useful for empty functions/blocks
                  see: del.py
-    * yield    -
+    * yield    - like `return`, but returns an generator
+                 see: yield.py
     * break    - jumps out of a loop
-    * except   -
+    * except   - catches an exception in a `try/except/finally` block
     * import   - imports the symbols from a package
     * print    - outputs text to STDOUT
     * class    - declares a Class
-    * exec     -
+    * exec     - takes code as string, runs it. `eval` is similar but returns a value
     * in       - test collection membership
                  see: in.py
-    * raise    -
+    * raise    - triggers a new exception
+                 see: raise.py
     * continue - jumps to the top of the loop
     * finally  - finishes a try/except block
-    * is       -
+    * is       - tests "identity" not "equality"
+                 see: is.py
     * return   - exits a function w/ a value
     * def      - defines a new function
     * for      - loop

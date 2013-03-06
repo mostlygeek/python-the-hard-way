@@ -15,7 +15,8 @@ Here is the list from the exercise:
     * global   -
     * or       - boolean OR
     * with     -
-    * assert   -
+    * assert   - create inline test, throws `AssertionError` if fails
+                 see: assert.py
     * else     - branching, a catch all
     * if       - logic branch
     * pass     - do nothing, useful for empty functions/blocks
@@ -27,10 +28,11 @@ Here is the list from the exercise:
     * print    - outputs text to STDOUT
     * class    - declares a Class
     * exec     -
-    * in       -
+    * in       - test collection membership
+                 see: in.py
     * raise    -
     * continue - jumps to the top of the loop
-    * finally  -
+    * finally  - finishes a try/except block
     * is       -
     * return   - exits a function w/ a value
     * def      - defines a new function

@@ -43,3 +43,13 @@ print x.v, MyClass.v
 MyClass.v = "changed"
 print x.v, MyClass.v
 
+# OUTPUT
+# -------------
+#
+# I'm printing in the MyClass block...wtf?
+# MyClass' __doc__:  Really I can access this with __doc__?
+# hello
+# world
+# Whoa... Lambda! 
+# 9 10
+# 9 changed
